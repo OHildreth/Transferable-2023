@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Transferable_2023App: App {
+    
+    @StateObject var pasteboardController = PasteboardController()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(pasteboardController)
         }
     }
 }

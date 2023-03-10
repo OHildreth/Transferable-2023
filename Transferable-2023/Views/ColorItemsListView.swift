@@ -11,10 +11,19 @@ struct ColorItemsListView: View {
     
     @ObservedObject var colorItemsViewModel: ColorItemsViewModel
     
+    @EnvironmentObject var pasteboardController: PasteboardController
+    
     var body: some View {
         List{
             ForEach(colorItemsViewModel.items) { nextColor in
                 ColorItemView(colorItem: nextColor)
+                    //.copyable([nextColor])
+                    .contextMenu {
+                        Button("Copy") {
+                            pasteboardController.pushColorItemToPasteboard(nextColor)
+                            print("Copying")
+                        }
+                    }
             }
         }
         .frame(width: 250)

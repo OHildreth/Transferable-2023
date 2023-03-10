@@ -22,6 +22,9 @@ struct ColorItemView: View {
                 .padding()
                 .foregroundColor(.white)
         }
+        .cornerRadius(8.0)
+        .draggable(colorItem)
+        .copyable([colorItem])
     }
 }
 

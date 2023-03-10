@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0709AC929BBE5AC003DE439 /* PasteBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0709AC829BBE5AC003DE439 /* PasteBoardController.swift */; };
 		C082156D29B93E8300C9A9B6 /* Transferable_2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082156C29B93E8300C9A9B6 /* Transferable_2023App.swift */; };
 		C082156F29B93E8300C9A9B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082156E29B93E8300C9A9B6 /* ContentView.swift */; };
 		C082157129B93E8400C9A9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C082157029B93E8400C9A9B6 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0709AC829BBE5AC003DE439 /* PasteBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteBoardController.swift; sourceTree = "<group>"; };
 		C082156929B93E8300C9A9B6 /* Transferable-2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Transferable-2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C082156C29B93E8300C9A9B6 /* Transferable_2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transferable_2023App.swift; sourceTree = "<group>"; };
 		C082156E29B93E8300C9A9B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				C082157E29B93F0B00C9A9B6 /* ColorItems.swift */,
+				C0709AC829BBE5AC003DE439 /* PasteBoardController.swift */,
 			);
 			path = "Data Models";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				C082157F29B93F0B00C9A9B6 /* ColorItems.swift in Sources */,
 				C082158129B9404F00C9A9B6 /* ColorItemsViewModel.swift in Sources */,
 				C082156F29B93E8300C9A9B6 /* ContentView.swift in Sources */,
+				C0709AC929BBE5AC003DE439 /* PasteBoardController.swift in Sources */,
 				C082156D29B93E8300C9A9B6 /* Transferable_2023App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
